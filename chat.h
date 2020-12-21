@@ -48,7 +48,7 @@ int send_all(char *msg, int not_to) ;
 
 void client_quit(s_client *me, char *msg) ;
 
-void *interaction(void *param) ;
+void *chat(void *param) ;
 
 
 #endif
